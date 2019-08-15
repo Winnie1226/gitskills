@@ -1,0 +1,7 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1565688396241,214,account-login-controller ,200,,登录测试 1-1,text,true,用例通过测试条件：账号不存在，预期结果：200，实际结果：200,235,310,1,1,http://192.168.20.92:9999/deal/account/login?name=jAdmin&password=1234567,213,0,65
+1565688396508,1,调试取样器,200,OK,登录测试 1-1,text,true,,454,0,1,1,null,0,0,0
+1565688396556,64,account-login-controller ,200,,登录测试 1-1,text,true,用例通过测试条件：密码帐号错误，预期结果：200，实际结果：200,255,308,1,1,http://192.168.20.92:9999/deal/account/login?name=jyadmin&password=1234,64,0,8
+1565688396628,0,调试取样器,200,OK,登录测试 1-1,text,true,,454,0,1,1,null,0,0,0
+1565688396629,45,account-login-controller ,200,,登录测试 1-1,text,true,用例通过测试条件：登录成功，预期结果：200，实际结果：200,358,311,1,1,http://192.168.20.92:9999/deal/account/login?name=jyAdmin&password=1234567,44,0,5
+1565688396681,0,调试取样器,200,OK,登录测试 1-1,text,true,,453,0,1,1,null,0,0,0

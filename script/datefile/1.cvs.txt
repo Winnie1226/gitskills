@@ -1,0 +1,8 @@
+﻿testCondition,expectedresults,username,password
+账号不存在,500,jAdmin,1234567
+密码帐号错误,200,jyadmin,1234
+登录成功,200,jyAdmin,1234567
+
+
+
+

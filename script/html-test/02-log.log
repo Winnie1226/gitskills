@@ -1,0 +1,79 @@
+2019-08-13 17:53:04,692 INFO o.a.j.u.JMeterUtils: Setting Locale to zh_CN
+2019-08-13 17:53:04,724 INFO o.a.j.JMeter: Loading user properties from: user.properties
+2019-08-13 17:53:04,724 INFO o.a.j.JMeter: Loading system properties from: system.properties
+2019-08-13 17:53:04,729 INFO o.a.j.JMeter: Copyright (c) 1998-2019 The Apache Software Foundation
+2019-08-13 17:53:04,730 INFO o.a.j.JMeter: Version 5.1 r1853635
+2019-08-13 17:53:04,730 INFO o.a.j.JMeter: java.version=1.8.0_191
+2019-08-13 17:53:04,730 INFO o.a.j.JMeter: java.vm.name=Java HotSpot(TM) 64-Bit Server VM
+2019-08-13 17:53:04,730 INFO o.a.j.JMeter: os.name=Windows 10
+2019-08-13 17:53:04,730 INFO o.a.j.JMeter: os.arch=amd64
+2019-08-13 17:53:04,730 INFO o.a.j.JMeter: os.version=10.0
+2019-08-13 17:53:04,731 INFO o.a.j.JMeter: file.encoding=GBK
+2019-08-13 17:53:04,731 INFO o.a.j.JMeter: java.awt.headless=true
+2019-08-13 17:53:04,731 INFO o.a.j.JMeter: Max memory     =1073741824
+2019-08-13 17:53:04,731 INFO o.a.j.JMeter: Available Processors =4
+2019-08-13 17:53:04,738 INFO o.a.j.JMeter: Default Locale=English (EN)
+2019-08-13 17:53:04,738 INFO o.a.j.JMeter: JMeter  Locale=Chinese (China)
+2019-08-13 17:53:04,738 INFO o.a.j.JMeter: JMeterHome=E:\ME\apache-jmeter-5.1
+2019-08-13 17:53:04,738 INFO o.a.j.JMeter: user.dir  =E:\ME\apache-jmeter-5.1\bin
+2019-08-13 17:53:04,738 INFO o.a.j.JMeter: PWD       =E:\ME\apache-jmeter-5.1\bin
+2019-08-13 17:53:13,794 INFO o.a.j.JMeter: IP: 192.168.24.1 Name: DESKTOP-N6L1U5T FullName: DESKTOP-N6L1U5T.yulintu.local
+2019-08-13 17:53:13,794 INFO o.a.j.JMeter: plugin_dependency_paths=../dependencies;
+2019-08-13 17:53:13,794 INFO o.a.j.JMeter: Adding to loader: ../dependencies
+2019-08-13 17:53:13,794 INFO o.a.j.s.FileServer: Default base='E:\ME\apache-jmeter-5.1\bin'
+2019-08-13 17:53:13,794 INFO o.a.j.s.FileServer: Set new base='e:\ME\apache-jmeter-5.1\practice'
+2019-08-13 17:53:13,950 INFO o.a.j.s.SaveService: Testplan (JMX) version: 2.2. Testlog (JTL) version: 2.2
+2019-08-13 17:53:13,965 INFO o.a.j.s.SaveService: Using SaveService properties file encoding UTF-8
+2019-08-13 17:53:13,965 INFO o.a.j.s.SaveService: Using SaveService properties version 5.0
+2019-08-13 17:53:13,981 INFO o.a.j.s.SaveService: Loading file: e:\ME\apache-jmeter-5.1\practice\20190813-jenkins+jmieter+Test.jmx
+2019-08-13 17:53:14,106 WARN o.a.j.u.JMeterUtils: Exception 'For input string: "ture"' occurred when fetching boolean property:'CookieManager.save.cookies', defaulting to: false
+2019-08-13 17:53:14,106 INFO o.a.j.p.h.c.CookieManager: Settings: Delete null: true Check: true Allow variable: true Save: false Prefix: COOKIE_
+2019-08-13 17:53:14,137 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/html is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2019-08-13 17:53:14,137 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xhtml+xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2019-08-13 17:53:14,137 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2019-08-13 17:53:14,137 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2019-08-13 17:53:14,137 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/vnd.wap.wml is org.apache.jmeter.protocol.http.parser.RegexpHTMLParser
+2019-08-13 17:53:14,137 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/css is org.apache.jmeter.protocol.http.parser.CssParser
+2019-08-13 17:53:14,231 INFO o.a.j.JMeter: Creating summariser <summary>
+2019-08-13 17:53:14,246 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2019-08-13 17:53:14,246 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2019-08-13 17:53:14,246 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2019-08-13 17:53:14,246 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must contain the string: '.functions.'
+2019-08-13 17:53:14,246 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must not contain the string: '.gui.'
+2019-08-13 17:53:14,754 INFO o.a.j.JMeter: 正在运行的测试 (1565689994754)
+2019-08-13 17:53:14,801 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : 登录测试
+2019-08-13 17:53:14,801 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group 登录测试.
+2019-08-13 17:53:14,801 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2019-08-13 17:53:14,801 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=1 ramp-up=1 perThread=1000.0 delayedStart=false
+2019-08-13 17:53:14,801 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2019-08-13 17:53:14,801 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2019-08-13 17:53:14,816 INFO o.a.j.t.JMeterThread: Thread started: 登录测试 1-1
+2019-08-13 17:53:14,816 INFO o.a.j.c.LoopController: iterationStart called on 循环控制器 with source org.apache.jmeter.control.LoopController@718d3a7e and iteration 1
+2019-08-13 17:53:14,816 INFO o.a.j.s.FileServer: Stored: datefile\1.cvs.txt
+2019-08-13 17:53:14,848 INFO o.a.j.p.h.s.HTTPHCAbstractImpl: Local host = DESKTOP-N6L1U5T
+2019-08-13 17:53:14,863 INFO o.a.j.p.h.s.HTTPHC4Impl: HTTP request retry count = 0
+2019-08-13 17:53:14,863 INFO o.a.j.s.SampleResult: Note: Sample TimeStamps are START times
+2019-08-13 17:53:14,863 INFO o.a.j.s.SampleResult: sampleresult.default.encoding is set to utf-8
+2019-08-13 17:53:14,863 INFO o.a.j.s.SampleResult: sampleresult.useNanoTime=true
+2019-08-13 17:53:14,863 INFO o.a.j.s.SampleResult: sampleresult.nanoThreadSleep=5000
+2019-08-13 17:53:15,098 INFO o.a.j.u.BeanShellTestElement: *************Beanshell断言信息打印*************
+2019-08-13 17:53:15,098 INFO o.a.j.u.BeanShellTestElement: ===========response_date===={"code":null,"httpCode":null,"msg":"账号不存在!","data":null,"errors":null,"success":false}
+2019-08-13 17:53:15,098 INFO o.a.j.u.BeanShellTestElement: 测试条件：账号不存在，预期结果：500，实际结果：200
+2019-08-13 17:53:15,113 INFO o.a.j.u.BeanShellTestElement: 测试条件：账号不存在，预期结果：500，实际结果：200
+2019-08-13 17:53:15,113 INFO o.a.j.c.LoopController: iterationStart called on 循环控制器 with source org.apache.jmeter.control.LoopController@718d3a7e and iteration 2
+2019-08-13 17:53:15,129 INFO o.a.j.u.JsseSSLManager: Using default SSL protocol: TLS
+2019-08-13 17:53:15,129 INFO o.a.j.u.JsseSSLManager: SSL session context: per-thread
+2019-08-13 17:53:15,191 INFO o.a.j.u.BeanShellTestElement: *************Beanshell断言信息打印*************
+2019-08-13 17:53:15,191 INFO o.a.j.u.BeanShellTestElement: ===========response_date===={"code":null,"httpCode":null,"msg":"请求失败！密码帐号错误？","data":null,"errors":null,"success":false}
+2019-08-13 17:53:15,191 INFO o.a.j.u.BeanShellTestElement: 测试条件：密码帐号错误，预期结果：200，实际结果：200
+2019-08-13 17:53:15,191 INFO o.a.j.u.BeanShellTestElement: 测试条件：密码帐号错误，预期结果：200，实际结果：200
+2019-08-13 17:53:15,191 INFO o.a.j.c.LoopController: iterationStart called on 循环控制器 with source org.apache.jmeter.control.LoopController@718d3a7e and iteration 3
+2019-08-13 17:53:15,223 INFO o.a.j.u.BeanShellTestElement: *************Beanshell断言信息打印*************
+2019-08-13 17:53:15,223 INFO o.a.j.u.BeanShellTestElement: ===========response_date===={"code":null,"httpCode":null,"msg":"登录成功！","data":"12F6C06372166314004E28AD52C49610","errors":null,"success":true}
+2019-08-13 17:53:15,223 INFO o.a.j.u.BeanShellTestElement: 测试条件：登录成功，预期结果：200，实际结果：200
+2019-08-13 17:53:15,238 INFO o.a.j.u.BeanShellTestElement: 测试条件：登录成功，预期结果：200，实际结果：200
+2019-08-13 17:53:15,238 INFO o.a.j.t.JMeterThread: Thread is done: 登录测试 1-1
+2019-08-13 17:53:15,238 INFO o.a.j.t.JMeterThread: Thread finished: 登录测试 1-1
+2019-08-13 17:53:15,238 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2019-08-13 17:53:15,238 INFO o.a.j.s.FileServer: Close: datefile\1.cvs.txt
+2019-08-13 17:53:15,238 INFO o.a.j.r.Summariser: summary =      6 in 00:00:00 =   12.4/s Avg:    42 Min:     0 Max:   165 Err:     1 (16.67%)

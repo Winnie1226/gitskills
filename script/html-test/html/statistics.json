@@ -1,0 +1,47 @@
+{
+  "Total" : {
+    "transaction" : "Total",
+    "sampleCount" : 6,
+    "errorCount" : 0,
+    "errorPct" : 0.0,
+    "meanResTime" : 54.0,
+    "minResTime" : 0.0,
+    "maxResTime" : 214.0,
+    "pct1ResTime" : 214.0,
+    "pct2ResTime" : 214.0,
+    "pct3ResTime" : 214.0,
+    "throughput" : 13.636363636363635,
+    "receivedKBytesPerSec" : 4.902787642045454,
+    "sentKBytesPerSec" : 2.0618785511363638
+  },
+  "调试取样器" : {
+    "transaction" : "调试取样器",
+    "sampleCount" : 3,
+    "errorCount" : 0,
+    "errorPct" : 0.0,
+    "meanResTime" : 0.33333333333333337,
+    "minResTime" : 0.0,
+    "maxResTime" : 1.0,
+    "pct1ResTime" : 1.0,
+    "pct2ResTime" : 1.0,
+    "pct3ResTime" : 1.0,
+    "throughput" : 17.341040462427745,
+    "receivedKBytesPerSec" : 7.68266799132948,
+    "sentKBytesPerSec" : 0.0
+  },
+  "account-login-controller " : {
+    "transaction" : "account-login-controller ",
+    "sampleCount" : 3,
+    "errorCount" : 0,
+    "errorPct" : 0.0,
+    "meanResTime" : 107.66666666666667,
+    "minResTime" : 45.0,
+    "maxResTime" : 214.0,
+    "pct1ResTime" : 214.0,
+    "pct2ResTime" : 214.0,
+    "pct3ResTime" : 214.0,
+    "throughput" : 6.928406466512702,
+    "receivedKBytesPerSec" : 1.9125288683602772,
+    "sentKBytesPerSec" : 2.09521146073903
+  }
+}
